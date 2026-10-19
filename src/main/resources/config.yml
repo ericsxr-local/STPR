@@ -1,0 +1,56 @@
+# STPR 中文配置
+settings:
+  # 每张地图达到最低人数后，进入 start / wait 投票。
+  start-when-full-default: false
+  default-min-players: 2
+  default-max-players: 8
+  default-match-seconds: 1200
+  default-extract-ticks: 100
+  default-allow-mid-join: false
+  require-bedrock-under-carpet: true
+
+messages:
+  prefix: "&8[&6搜打撤&8] &r"
+  no-permission: "&c你没有权限使用这个功能。"
+  player-only: "&c这个功能只能由玩家执行。"
+  syntax: "&e/stpr <地图> &7进入匹配
+&e/stpr start &7投票现在传送
+&e/stpr wait &7投票继续等待
+&e/stpr leave &7退出
+&e/stpr admin ... &7管理员设置"
+  map-not-found: "&c找不到地图：&e%map%"
+  map-created: "&a地图创建成功：&e%map%"
+  map-deleted: "&a地图已删除：&e%map%"
+  map-exists: "&c地图已经存在：&e%map%"
+  join-success: "&a已进入 &e%map% &a匹配。"
+  already-queued: "&e你已经在匹配中。"
+  already-in-match: "&e你已经在对局中。"
+  full: "&c当前匹配人数已满，请等待下一局。"
+  waiting-full: "&a人数已到齐：&e%current%/%min%&a，是否现在传送？屏幕下方已提示，输入 &e/start &a或 &c/wait"
+  vote-start: "&a你已投票：现在传送。"
+  vote-wait: "&e你已投票：继续等待。"
+  vote-start-more: "&a现在传送票更多，正在开始对局。"
+  vote-wait-more: "&e继续等待票更多，本局继续等待。"
+  vote-tie: "&e当前票数相同，继续等待。"
+  start-no-spawn: "&c这张地图还没有设置随机出生点。"
+  game-started: "&a对局开始！"
+  midjoin-disabled: "&c当前对局已开启，请等待下一局：&e%time%"
+  midjoin-enabled: "&a已加入当前对局：&e%map%"
+  no-match: "&c当前没有可以投票的匹配。"
+  not-in-match: "&c你当前不在搜打撤对局中。"
+  left: "&a已退出当前匹配/对局。"
+  match-ended: "&a本局已结束。"
+  extract-start: "&b开始撤离：&e%seconds%秒"
+  extract-cancel: "&c撤离已取消。"
+  extract-success-title: "&a撤离成功"
+  extract-success-subtitle: "&f你已安全离开本局。"
+  extract-success-chat: "&a%player% &f成功撤离。"
+  timeout-title: "&c撤离失败"
+  timeout-subtitle: "&7你未能在规定时间内撤离。"
+  timeout-chat: "&c%player% &f未能撤离，已被淘汰。"
+  postpoint-missing: "&c这张地图没有设置撤离后传送点，请联系管理员。"
+  exit-invalid: "&c撤离点必须是绿色地毯，且地毯下面必须是基岩。"
+  point-added: "&a已添加%type%点 #%index%。"
+  point-deleted: "&a已删除%type%点 #%index%。"
+  points-cleared: "&a已清空%type%点。"
+  map-configured: "&a地图 &e%map% &a设置已保存。"

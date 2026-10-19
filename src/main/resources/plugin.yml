@@ -1,0 +1,18 @@
+name: STPR
+version: 1.0.0
+main: com.redmoore.stpr.STPRPlugin
+api-version: '1.20'
+author: Eric_SXR
+description: 搜打撤随机匹配与撤离插件
+
+commands:
+  stpr:
+    description: 搜打撤随机匹配与撤离
+    usage: /stpr <地图> | /stpr start | /stpr wait | /stpr leave | /stpr admin ...
+    aliases:
+      - st
+
+permissions:
+  stpr.admin:
+    description: 管理 STPR 地图
+    default: op

@@ -1,0 +1,16 @@
+name: sdc-0
+min-players: 2
+max-players: 8
+match-seconds: 1200
+allow-mid-join: false
+start-when-full: false
+extract-ticks: 100
+post-extraction:
+  world: sdc-0
+  x: 0.5
+  y: 100.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+spawn-points: []
+extraction-points: []
